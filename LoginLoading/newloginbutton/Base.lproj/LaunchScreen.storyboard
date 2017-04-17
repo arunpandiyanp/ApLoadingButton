@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,29 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APLoading Button" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCx-g9-Ko4">
+                                <rect key="frame" x="56" y="316" width="263" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2017 ArunPandiyanP. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lu3-Z6-HDE">
+                                <rect key="frame" x="16" y="631" width="343" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CCx-g9-Ko4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="40" id="55n-p5-14x"/>
+                            <constraint firstItem="CCx-g9-Ko4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RHY-x9-WV8"/>
+                            <constraint firstItem="CCx-g9-Ko4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Z5H-2Q-kmp"/>
+                            <constraint firstItem="lu3-Z6-HDE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cJu-ZF-jgn"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="lu3-Z6-HDE" secondAttribute="leading" id="lwu-VH-DO0"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lu3-Z6-HDE" secondAttribute="bottom" constant="20" id="qT6-N5-6hm"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
