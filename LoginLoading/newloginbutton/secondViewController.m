@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIButton *playButton = [[UIButton alloc]initWithFrame:CGRectMake(190.0, 390.0, 100.0, 30.0)];
+    UIButton *playButton = [[UIButton alloc]initWithFrame:CGRectMake(160.0, 390.0, 100.0, 30.0)];
      
     [playButton setTitle:@"Back" forState:UIControlStateNormal];
      playButton.backgroundColor = [UIColor clearColor];
