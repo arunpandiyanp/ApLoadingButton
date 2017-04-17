@@ -4,7 +4,7 @@ Loading Button in objective c
 # Installation
 
 ## Manually
-add <b>APLoadingButton</b> and <b>APSpinLayer</b> File in your Project
+add <b>APLoadingButton.h ,APLoadingButton.m</b> and <b>APSpinLayer.h,APSpinLayer.m</b> File in your Project
 
 import your view controller in  #import "APLoadingButton.h"
 
