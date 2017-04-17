@@ -46,7 +46,7 @@ Add `APLoadingButton`
 }
 ```
 ####Credits
-* August (https://www.cocoacontrols.com/controls/artransitionanimator) for ransition animation in second view controller button.
+* August (https://www.cocoacontrols.com/controls/artransitionanimator) for transition animation in second view controller button.
 
 License
 -------------------------------------------------------
