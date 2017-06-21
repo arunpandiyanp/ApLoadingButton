@@ -45,6 +45,8 @@ Add `APLoadingButton`
     });
 }
 ```
+more basic Programs and common code is here (https://iosdeveloperweb.wordpress.com/)
+
 ####Credits
 * August (https://www.cocoacontrols.com/controls/artransitionanimator) for transition animation in second view controller button.
 
